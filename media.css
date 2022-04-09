@@ -1,0 +1,365 @@
+@media (max-width:767px) {
+    .navigation{
+        width: 100%;
+    }
+    nav{
+        flex-direction: column; 
+        position: relative;
+        width: 100%;
+        margin: 0;
+    }
+    .logo{
+        padding:20px;
+    }
+   nav ul{
+        flex-direction: column;
+        align-items: left;
+        position: absolute;
+        background-color: black;
+        width: 100%;
+        top:65px;
+        left: -900px;
+        z-index: 1;
+        transition: all .2s linear;  
+    }
+    nav ul li{
+        padding:10px;
+        border-bottom: 1px solid white;
+        background-color: black;
+    }
+    nav ul li a{
+        color: white;
+        padding: 5px;
+    }
+    a:hover{
+        color: red;
+    }
+    .icon{
+        color: white;
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 25px;
+    }
+    .chk{
+        display: block;
+        position: absolute;
+        right: 50px;
+        top: 25px;
+        opacity: 0;  
+    }
+    .chk:checked~ ul{
+        left: 0;
+        
+
+    }
+    .test{
+        width: 100%;
+        /* margin: 0; */
+    }
+    .back{
+        height: 500px;
+        width: 100%;
+        background-position: center;
+    }
+    .test{
+        height: 500px;
+    }
+    .bc h3{
+        font-size: 30px;
+    }
+    .bc h1{
+        font-size: 40px;
+    }
+    .logo{
+        width: 30%;
+    }
+ /* --------------------------------------------------ABOUT---------------------------------------------- */
+    .ab p{
+        padding: 20px;
+    }
+    .ab{
+        width: 100%;
+    }
+    .abd{ 
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+    }
+    .abd1{
+        width: 100%;
+        flex-direction: column;
+    }
+    .abdi img{
+        margin: 0 auto;
+        width: 100%;
+    }
+/* ---------------------------------------------------------DOWNLOAD------------------------------------------------- */
+    .dow{
+        width: 100%;
+        justify-content: space-around;
+    }
+
+/* --------------------------------------------------------Services-------------------------------------------------- */
+    .sb{
+        width: 100%;
+        flex-direction: column;
+    }
+    .sb .hr{
+        width: 10%;
+    }
+    .services1{
+        width: 100%;
+    }
+    .servicesbox1,.servicesbox2,.servicesbox3{
+        margin: 0 auto;
+        width: 50%;
+        flex-direction: column;
+    }
+    /* .servicer1{
+        text-align: center;
+        width: 100%;
+        margin:0;
+        justify-content: space-evenly;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .servicer2{
+        text-align: center;
+        width: 100%;
+        margin:0;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        padding: 0;
+    }
+    .s1,.s2,.s3{
+        flex-direction: column;
+        width:50%;
+    }
+    .s4,.s5,.s6{
+        flex-direction: column;
+        width: 50%;
+    } */
+/* --------------------------------------------------Percent----------------------------------------------------------- */
+   .pc{
+       flex-direction: column;
+       align-items: center;
+       width: 100%;
+   }
+   .pcontent{
+       width: 100%;
+       /* margin-left: 40px; */
+   }
+   .nper{
+       width: 95%;
+   }
+   .nper1{
+       width: 89%;
+   }
+   .nper1 p{
+       left: 92%;
+   }
+   .nper2{
+       width: 78%;
+   }
+   .nper2 p{
+       left: 91%;
+   }
+   .nper3{
+       width: 60%;
+   }
+   .nper3 p{
+       left: 88%;
+   }
+   .nper4{
+       width: 70%;
+   }
+   .nper4 p{
+       left: 90%;
+   }
+   .pimg{
+       padding-top: 50px;
+   }
+   .pimg img{
+       margin: 0 auto;
+       width: 90%;
+   }
+
+   /* ---------------------------------------------------AWESOME FEATURE-1-------------------------------------------- */
+
+   .sb1{
+       margin: 0;
+       width: 100%;
+   }
+   .fweb{
+       flex-direction: column;
+       margin: 0;
+       width: 100%;
+   }
+   .fwebcontent{
+       width: 100%;
+       margin: 0;
+   }
+   .fwebcontent p{
+       padding: 20px;
+   }
+   .fwebimg{
+       margin: 0 auto;
+       margin-top: 10px;
+   }
+
+   .yep{
+       flex-wrap: wrap;
+       width: 100%;
+       margin: 0;
+       margin-top: 30px;
+       justify-content: space-around;
+   }
+   .o1,.o2,.o3{
+      border: 5px solid white;
+   }
+   .yep1{
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0;
+    justify-content: space-around;
+    }
+    .o5,.o6,.o7{
+        border: 5px solid white;
+     }
+     .fwebimg img{
+         width: 100%;
+     }
+
+     /* ------------------------------------------TEAM---------------------------------------- */
+
+     .sbc{
+        margin: 0;
+        width: 100%;
+    }
+
+    .teambox{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .likes ul{
+        width: 60%;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+    .likes ul li{
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .name1,.name2,.name3,.name4{
+        margin-top: 10px;
+    }
+
+/* -------------------------------------------------JOE-------------------------------------------- */
+
+    .joe{
+        width: 100%;
+    }
+    .jbg1{
+        width: 100%;
+    }
+    .likes ul li h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: rgb(39, 38, 38);
+    }
+
+
+/* -----------------------------------------CONTACT------------------------------------------------ */
+
+    .contact{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .box{
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+        padding-top: 10px;
+    }
+    .bb1{
+        margin: 0 auto;
+        width: 100%;
+        align-items: center;
+    }
+    .hh,.hh1{
+        width: 98%;
+        margin-top: 5px;
+    }
+    .hh2,.hh3{
+        width: 99%;
+        margin-top: 5px;
+    }
+    .right ul li{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .send{
+        width: 100%;
+    }
+    input{
+        text-align: center;
+    }
+
+/* -----------------------------------------------------FOLLOW-US------------------------------------------------ */
+    .followus{
+        width: 100%;
+    }
+    .lnav{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+
+/* ------------------------------------------------------ENDING------------------------------------------------------- */
+
+    .ld{
+        width: 100%;
+        /* margin: 0 auto; */
+        text-align: center;
+    }
+    /* .ld h3{
+        margin: 0 auto;
+
+    } */
+}
+
+
+
+
+
+/* <section class="third">
+       <div class="tflex">
+                <div class="timg">
+                    <img src="mbr.jpeg">
+                </div>
+                <div class="tmain">
+                        <div class="tcontent">
+                            <div class="tcflex">
+                                <h1>Aliquam ut quam sed sapien suscipit vitae.</h1>
+                            </div>
+                            <div class="read3">
+                            <a href="">Get Started</a>
+                            </div>
+                        </div>
+                     <div class="thead">
+                        <div class="th1"><h2>01.Research</h2><p>Lorem ipsum dolor sapien amet, consectetur adipiscing elit. </p></div>
+                        <div class="th1"><h2>02.Processes</h2><p>Lorem ipsum dolor sapien amet, consectetur adipiscing elit. </p></div>
+                        <div class="th1"><h2>03.Managemenet</h2><p>Lorem ipsum dolor sapien amet, consectetur adipiscing elit. </p></div>
+                        <div class="th1"><h2>04.Staff</h2><p>Lorem ipsum dolor sapien amet, consectetur adipiscing elit. </p></div>
+                        <div class="th1"><h2>05.Branding</h2><p>Lorem ipsum dolor sapien amet, consectetur adipiscing elit. </p></div>
+                        <div class="th1"><h2>06.Analyze</h2><p>Lorem ipsum dolor sapien amet, consectetur adipiscing elit. </p></div>
+                    </div> 
+                </div>
+       </div>
+
+   </section> */
